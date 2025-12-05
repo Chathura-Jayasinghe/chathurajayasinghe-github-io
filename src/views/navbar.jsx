@@ -50,6 +50,7 @@ const Navbar = () => {
         <NavLink to="skills" title="Skills" />
         <NavLink to="projects" title="Projects" />
         <NavLink to="resume" title="Resume" />
+        <NavLink to="organizations" title="Organizations" />
         <NavLink to="contact" title="Contact" />
       </div>
 

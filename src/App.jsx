@@ -3,6 +3,7 @@ import Home from "./views/home";
 import Skills from "./views/skills";
 import Projects from "./views/projects";
 import Resume from "./views/resume";
+import Organizations from "./views/organizations";
 import Contact from "./views/contact";
 import Footer from "./views/footer";
 import React from "react";
@@ -24,7 +25,7 @@ export default function App() {
         <Resume />
       </div>
       <div id="organizations" className="section">
-        <Resume />
+        <Organizations />
       </div>
       <div id="contact" className="section">
         <Contact />
