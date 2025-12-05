@@ -14,7 +14,7 @@ import {
   SiJavascript,
   SiPython,
   SiPytorch,
-  SiSpringboot,
+  SiTensorflow,
 } from "react-icons/si";
 import TypingText from "../components/typingtext_navbar";
 import TypingTextHome from "../components/typingtext_home";
@@ -168,11 +168,12 @@ const Home = () => {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            Hi! I’m Chathura Jayasinghe, an undergraduate student pursuing Electrical Engineering at the University of Moratuwa, Sri
-            Lanka. As a Dean’s List achiever, I thrive at the intersection of
-            research and practical innovation, specializing in Computer Vision,
-            Machine Learning, Software Engineering, and Mathematics, leveraging
-            state of the art technologies.
+            Hi! I’m Chathura Jayasinghe, an undergraduate student pursuing
+            Electrical Engineering at the University of Moratuwa, Sri Lanka. As
+            a Dean’s List achiever, I thrive at the intersection of research and
+            practical innovation, specializing in Computer Vision, Machine
+            Learning, Software Engineering, and Mathematics, leveraging state of
+            the art technologies.
           </p>
 
           <p
@@ -183,10 +184,10 @@ const Home = () => {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            {/* I believe the universe conspires to reward consistent effort.
+            I believe the universe conspires to reward consistent effort.
             Whether hiking mountains, pre-planning workflows, or chasing
             deadlines, I balance curiosity with discipline. Let’s connect and
-            explore how algorithms—or acoustic melodies—can shape the future! */}
+            explore how algorithms—or acoustic melodies—can shape the future!
           </p>
           <div className="flex flex-col md:flex-row justify-between pt-6 space-y-6 md:space-y-0 md:space-x-12">
             {/* Socials Section */}
@@ -221,17 +222,17 @@ const Home = () => {
                 >
                   <SocialIcon icon={<FaLinkedinIn />} />
                 </a>
-                {/* <a
-                  href="https://medium.com/@vgr0876"
+                <a
+                  href="https://medium.com/@chathurajayasinghe04/about"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SocialIcon icon={<FaMedium />} />
-                </a> */}
+                </a>
                 <a
                   href="mailto:chathurajayasinghe04@gmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  className="inline-block hover:opacity-80 transition"
+                  title="Email me"
                 >
                   <SocialIcon icon={<BiMailSend />} />
                 </a>
@@ -252,9 +253,9 @@ const Home = () => {
                 <SocialIcon icon={<SiPython />} />
                 <SocialIcon icon={<SiPytorch />} />
                 <SocialIcon icon={<SiJavascript />} />
-                <SocialIcon icon={<SiTailwindcss />} />
-                <SocialIcon icon={<DiJava />} />
-                <SocialIcon icon={<SiSpringboot />} />
+                <SocialIcon icon={<SiReact />} />
+                <SocialIcon icon={<SiNextdotjs />} />
+                <SocialIcon icon={<SiTensorflow />} />
               </div>
             </div>
           </div>

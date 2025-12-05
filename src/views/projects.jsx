@@ -116,24 +116,24 @@ const Projects = () => {
       id: 7,
       title: "Virtual-Math-Solver",
       year: 2024,
-      image: "/projects/kop.jpeg",
+      image: "/projects/virtual_math_solver.png",
       description:
         "An AI-powered virtual math solver that uses OpenCV and hand gesture recognition to interpret and solve math problems via a webcam-based Streamlit interface.",
       github: "https://github.com/Chathura-Jayasinghe/Virtual-Math-Solver",
-      // liveDemo:
-      //   "https://www.youtube.com/watch?v=fNJUb6_OiGQ&ab_channel=STAVEMusicalCrew",
+      liveDemo:
+        "https://youtu.be/TsLuuexfgtI",
       tags: ["Python", "OpenCV", "Streamlit"],
     },
     {
       id: 8,
-      title: "Pogathey-From Mix to Master",
+      title: "Maze Solving Robot",
       year: 2025,
-      image: "/projects/pogathey.jpeg",
+      image: "/projects/maze_solving_robot.jpg",
       description:
-        "A catchy track. Engineered the mixing and mastering of this track, enhancing clarity, balance, and dynamics for a polished, professional sound.",
-      github: "https://www.youtube.com/@ATScreation_official",
+        "An autonomous maze-solving robot designed to navigate complex paths using intelligent algorithms and real-time sensor feedback. This robot detects obstacles, makes optimal turning decisions, and efficiently finds the shortest route through a maze. Built with embedded systems, motor control, and algorithmic logic to demonstrate practical robotics and path-finding techniques.",
+      github: "https://github.com/Chathura-Jayasinghe/MazeSolver_Group04.git",
       // liveDemo: "https://youtu.be/y7qcyw55io8?feature=shared",
-      tags: ["Music", "Mixing", "Mastering"],
+      tags: ["Robotics", "Embedded Systems", "Maze Solving"],
     },
   ];
 

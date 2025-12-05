@@ -45,7 +45,7 @@ export default function ResumeSection() {
       institution: "University of Moratuwa (2022 - 2026)",
       score: "3.6/4",
       description:
-        "Coursework: Deep Learning for Vision, Machine Vision, Pattern Recognition, Modular Software Development, Networking and Programming Fundamentals.",
+        "Coursework: Electrical Engineering , Embedded Systems , IOT ,Deep Learning for Vision, Pattern Recognition, Modular Software Development, Networking and Programming Fundamentals.",
       years: "2022 - 2026",
     },
     {
@@ -74,7 +74,7 @@ export default function ResumeSection() {
       location: "Sri Lanka",
       description:
         "Completed an AI & ML Engineer internship at Jaseci Labs, contributing to Jac compiler development and improving software engineering skills.",
-      years: "2024",
+      years: "1",
     },
     {
       id: 2,
@@ -83,46 +83,66 @@ export default function ResumeSection() {
       location: "Sri Lanka",
       description:
         "Contributed to Visual Language Models (VLM) research at Jaseci Labs, focusing on model evaluation and prompt engineering to optimize large language model performance.",
-      years: "2024",
+      years: "1",
     },
   ];
   const volunteeringData = [
     {
       id: 1,
+      position: "EESoc Web Editor",
+      company:
+        "Electrical Engineering Society (EESoc), University of Moratuwa (2025 - Present)",
+      location: "Sri Lanka",
+      description:
+        "Managed and updated the society’s website, improved content presentation, and supported event promotions to strengthen EESoc’s digital presence and engagement.",
+      years: "2025 - 2026",
+    },
+    {
+      id: 2,
       position: "EESoc Web Coordinator",
-      company: "Electrical Engineering Society (EESoc), University of Moratuwa (2023 - Present)",
+      company:
+        "Electrical Engineering Society (EESoc), University of Moratuwa (2023 - Present)",
       location: "Sri Lanka",
       description:
         "Worked on the society’s web presence by maintaining and updating content, supporting event pages, and enhancing digital outreach.",
-      years: "2023 - Present",
+      years: "2024 - 2025",
     },
     {
-    id: 2,
-    position: "Publicity Team Member - MoraForesight 2.0",
-    company: "IEEE Student Branch, University of Moratuwa - 2024",
-    location: "Sri Lanka",
-    description:
-      "Contributed to organizing and promoting MoraForesight 2.0 by handling event publicity, digital promotions, and outreach initiatives.",
-    years: "2024",
-  },
-  {
-    id: 3,
-    position: "Publicity Team Member",
-    company: "Mora Math Society - 2023",
-    location: "Sri Lanka",
-    description:
-      "Supported the publicity efforts for society events by designing promotional content and managing social media visibility.",
-    years: "2023",
-  },
-  {
-    id: 4,
-    position: "Technical Team Member - STEAMPillar",
-    company: "Sasnaka Sansada Foundation - (2021 - 2023)",
-    location: "Sri Lanka",
-    description:
-      "Provided ongoing technical support for STEAMPillar initiatives, including STEM education sessions, Remedial Teaching programs, and IT infrastructure support.",
-    years: "2021 - 2023",
-  },
+      id: 3,
+      position: "Publicity Team Member - MoraForesight 2.0",
+      company: "IEEE Student Branch, University of Moratuwa - 2024",
+      location: "Sri Lanka",
+      description:
+        "Contributed to organizing and promoting MoraForesight 2.0 by handling event publicity, digital promotions, and outreach initiatives.",
+      years: "2024",
+    },
+    {
+      id: 4,
+      position: "Publicity Team Member",
+      company: "Mora Math Society - 2023",
+      location: "Sri Lanka",
+      description:
+        "Supported the publicity efforts for society events by designing promotional content and managing social media visibility.",
+      years: "2023",
+    },
+    {
+      id: 5,
+      position: "Technical Team Member - STEAMPillar",
+      company: "Sasnaka Sansada Foundation - (2021 - 2023)",
+      location: "Sri Lanka",
+      description:
+        "Provided ongoing technical support for STEAMPillar initiatives, including STEM education sessions, Remedial Teaching programs, and IT infrastructure support.",
+      years: "2021 - 2023",
+    },
+    {
+      id: 6,
+      position: "Edexcel Maths & Physics Tutor",
+      company: "2023 - Present",
+      location: "Sri Lanka",
+      description:
+        "Tutored Edexcel Mathematics and Physics, helping students improve problem-solving skills and exam performance through clear explanations and focused guidance.",
+      years: "3",
+    },
   ];
 
   const publicationsData = [
@@ -130,13 +150,13 @@ export default function ResumeSection() {
       id: 1,
       title: "The Role of Edge Computing in Autonomous Vehicles",
       description:
-        "Presented on the integration of sensing and communication technologies for enhanced data transmission and processing.",
+        "Presented on the impact of edge computing in autonomous vehicles, focusing on real-time sensing, communication, and efficient data processing.",
       // presented: "Spark Insight Magazine",
+      link: "https://heyzine.com/flip-book/20f2458032.html#page/60",
     },
     {
       id: 2,
-      title:
-        " An Intelligent Helmet for Motorcycle Safety",
+      title: " An Intelligent Helmet for Motorcycle Safety",
       description:
         "Submitted a research paper based on the Smart Helmet System project, highlighting the integration of IoT, AI, and sensor technologies to improve motorcycle safety in Sri Lanka.",
       // presented: "",
@@ -154,39 +174,38 @@ export default function ResumeSection() {
     {
       id: 0,
       title: "Dean's List",
-      description:
-        "Semester 3.",
+      description: "Semester 3, Semester 4.",
     },
     {
-    id: 1,
-    title: "11th Place",
-    description:
-      "ACES Coders V10.0 (October 2023), an islandwide algorithmic coding competition organized by the University of Peradeniya.",
-  },
-  {
-    id: 2,
-    title: "6th Place",
-    description:
-      "ENIGMA 2024 (August 2023), a national-level competitive programming competition.",
-  },
-  {
-    id: 3,
-    title: "High Distinction Pass",
-    description:
-      "Australian National Chemistry Quiz 2019, awarded for outstanding performance in international chemistry assessment.",
-  },
-  {
-    id: 4,
-    title: "Mahapola Higher Education (Merit) Scholarship",
-    description:
-      "Awarded for exceptional academic performance in GCE A/L examination with an Island Rank of 238.",
-  },
-  {
-    id: 5,
-    title: "4th Place",
-    description:
-      "MECHA 2023, a Med-Tech Hackathon organized by the Faculty of Medicine, University of Colombo, focusing on innovative medical device and application development.",
-  },
+      id: 1,
+      title: "11th Place",
+      description:
+        "ACES Coders V10.0 (October 2023), an islandwide algorithmic coding competition organized by the University of Peradeniya.",
+    },
+    {
+      id: 2,
+      title: "6th Place",
+      description:
+        "ENIGMA 2024 (August 2023), a national-level competitive programming competition.",
+    },
+    {
+      id: 3,
+      title: "High Distinction Pass",
+      description:
+        "Australian National Chemistry Quiz 2019, awarded for outstanding performance in international chemistry assessment.",
+    },
+    {
+      id: 4,
+      title: "Mahapola Higher Education (Merit) Scholarship",
+      description:
+        "Awarded for exceptional academic performance in GCE A/L examination with an Island Rank of 238.",
+    },
+    {
+      id: 5,
+      title: "4th Place",
+      description:
+        "MECHA 2023, a Med-Tech Hackathon organized by the Faculty of Medicine, University of Colombo, focusing on innovative medical device and application development.",
+    },
   ];
 
   const tabs = [
@@ -481,18 +500,31 @@ const PublicationItem = ({ publication, delay = 0 }) => {
             </svg>
           </div>
         </div>
+
         <div className="ml-4">
           <h3 className="text-lg font-medium text-teal-400 mb-1">
             {publication.title}
           </h3>
+
           <p className="text-gray-300 pb-2 text-sm">
             {publication.description}
           </p>
-          <span className="text-gray-200 bg-rose-500 rounded-lg px-2 py-1 text-sm mt-1">
-            {publication.presented}
-          </span>
+
+          {/* Rose Button Link */}
+          {publication.link && (
+            <a
+              href={publication.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-2 px-3 py-1 text-sm bg-rose-500 rounded-lg text-white hover:bg-rose-600 transition"
+            >
+              View Publication
+            </a>
+          )}
         </div>
       </div>
     </div>
   );
 };
+
+

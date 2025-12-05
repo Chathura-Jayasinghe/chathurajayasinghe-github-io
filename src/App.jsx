@@ -23,6 +23,9 @@ export default function App() {
       <div id="resume" className="section">
         <Resume />
       </div>
+      <div id="organizations" className="section">
+        <Resume />
+      </div>
       <div id="contact" className="section">
         <Contact />
       </div>
