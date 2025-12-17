@@ -48,7 +48,7 @@ const organizationsData = [
     name: "Jaseci Labs",
     subtitle: "Jaseci Labs",
     role: "AI/ML Engineer Intern",
-    period: "Dec 2024 - Present",
+    period: "Dec 2024 - May 2025",
     logo: "/organizations/jaseci.png",
   },
 ];

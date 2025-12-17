@@ -156,13 +156,21 @@ export default function ResumeSection() {
     },
     {
       id: 2,
+      title: "Using CLIP for Image Classification Without Training a Model",
+      description:
+        "I built a zero-shot image classification project using OpenAI’s CLIP that can label images from custom text prompts without training a new model. Implemented in Python with PyTorch + Hugging Face Transformers using image–text embeddings and cosine similarity.improve motorcycle safety in Sri Lanka.",
+      // presented: "",
+      link: "https://medium.com/@chathurajayasinghe04/using-clip-for-image-classification-without-training-a-model-811f88f4b51c",
+    },
+    {
+      id: 3,
       title: " An Intelligent Helmet for Motorcycle Safety",
       description:
         "Submitted a research paper based on the Smart Helmet System project, highlighting the integration of IoT, AI, and sensor technologies to improve motorcycle safety in Sri Lanka.",
       // presented: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "Robot Arm for Handling Hazardous Liquids",
       description:
         "Submitted a research paper detailing simulation and design work using MATLAB and SOLIDWORKS.",
