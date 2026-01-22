@@ -80,10 +80,10 @@ const Skills = () => {
             skills={[
               { name: "Python", level: 90 },
               { name: "JavaScript/TypeScript", level: 85 },
+              { name: "MATLAB", level: 75 },
               { name: "Java", level: 75 },
               { name: "LaTeX", level: 70 },
-              { name: "Swift", level: 45 },
-              { name: "C/C++ (Novice)", level: 30 },
+              { name: "C/C++", level: 50 },
             ]}
             delay={100}
           />
@@ -95,7 +95,6 @@ const Skills = () => {
             skills={[
               { name: "VS Code", level: 95 },
               { name: "Git/GitHub", level: 85 },
-              { name: "VIM", level: 80 },
               { name: "Unix Shell", level: 80 },
               { name: "IntelliJ IDEA", level: 55 },
             ]}
@@ -110,6 +109,8 @@ const Skills = () => {
               { name: "PyTorch", level: 85 },
               { name: "TensorFlow", level: 55 },
               { name: "Sci-Kit Learn", level: 65 },
+              { name: "OpenCV", level: 70 },
+              { name: "Keras", level: 50 },
             ]}
             delay={500}
           />
@@ -123,6 +124,8 @@ const Skills = () => {
               { name: "React Native", level: 80 },
               { name: "Spring Boot", level: 60 },
               { name: "Tailwind CSS", level: 70 },
+              { name: "HTML", level: 65 },
+              { name: "CSS", level: 60 },
             ]}
             delay={700}
           />
@@ -132,10 +135,10 @@ const Skills = () => {
             icon={<FaCloud />}
             title="Cloud Deployment"
             skills={[
-              { name: "AWS", level: 55 },
-              { name: "Kubernetes", level: 35 },
-              { name: "Docker", level: 40 },
-              { name: "CI/CD (GitHub Actions)", level: 60 },
+              { name: "Kubernetes", level: 60 },
+              { name: "Docker", level: 50 },
+              { name: "CI/CD (GitHub Actions)", level: 70 },
+              { name: "Postman", level: 45 },
             ]}
             delay={900}
           />
@@ -143,14 +146,14 @@ const Skills = () => {
           {/* Multimedia Tools Card */}
           <SkillCard
             icon={<FaFilm />}
-            title="Multimedia Tools"
+            title="Robotics & Embedded"
             skills={[
-              { name: "Audio Processing (Steinberg)", level: 95 },
-              { name: "Video Editing (Adobe Premire Pro)", level: 65 },
-              { name: "Video FX (Adobe After Effects) ", level: 50 },
-              { name: "3D Modeling (Blender)", level: 40 },
-              { name: "SolidWorks", level: 60 },
-              { name: "Altium Designer", level: 55 },
+              { name: "Arduino", level: 95 },
+              { name: "ESP32", level: 70 },
+              { name: "Raspberry Pi", level: 70 },
+              { name: "MQTT", level: 40 },
+              { name: "Node-RED", level: 40 },
+              { name: "NVIDIA Jetson(Novice)", level: 40 },
             ]}
             delay={1100}
           />
