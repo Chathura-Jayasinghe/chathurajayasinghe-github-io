@@ -148,33 +148,33 @@ export default function ResumeSection() {
   const publicationsData = [
     {
       id: 1,
-      title: "The Role of Edge Computing in Autonomous Vehicles",
-      description:
-        "Presented on the impact of edge computing in autonomous vehicles, focusing on real-time sensing, communication, and efficient data processing.",
-      // presented: "Spark Insight Magazine",
-      link: "https://heyzine.com/flip-book/20f2458032.html#page/60",
+      title:
+        "Balancing Performance and Feasibility in Selecting VLMs for Temporal Motion Understanding",
+      venue:
+        "2026 IEEE International Conference on Artificial Intelligence and Internet of Things (AIIOT 2026)",
+      authors:
+        "G. N. Amarasuriya, J. M. C. N. B. Jayasinghe, M. R. M. Prabhashana, N. S. Samarasinghe, V. Logeeshan, D. S. Alwis, C. Wanigasekara",
+      link: "https://doi.org/10.1109/AIIoT68874.2026.11569561",
+      linkLabel: "View Publication",
     },
     {
       id: 2,
-      title: "Using CLIP for Image Classification Without Training a Model",
-      description:
-        "I built a zero-shot image classification project using OpenAI’s CLIP that can label images from custom text prompts without training a new model. Implemented in Python with PyTorch + Hugging Face Transformers using image–text embeddings and cosine similarity.improve motorcycle safety in Sri Lanka.",
-      // presented: "",
-      link: "https://medium.com/@chathurajayasinghe04/using-clip-for-image-classification-without-training-a-model-811f88f4b51c",
+      title:
+        "Fitness to Clinical Prescription: Fine-Tuning Vision Language Models for Therapeutic Exercises",
+      venue:
+        "2026 International Conference on Robotics and Artificial Intelligence (IRAI 2026)",
+      status: "Accepted",
+      authors:
+        "G. N. Amarasuriya, M. R. M. Prabhashana, J. M. C. N. B. Jayasinghe, N. S. Samarasinghe, V. Logeeshan, S. N. N. Nair, D. C. Ranasinghe",
     },
     {
       id: 3,
-      title: " An Intelligent Helmet for Motorcycle Safety",
-      description:
-        "Submitted a research paper based on the Smart Helmet System project, highlighting the integration of IoT, AI, and sensor technologies to improve motorcycle safety in Sri Lanka.",
-      // presented: "",
-    },
-    {
-      id: 4,
-      title: "Robot Arm for Handling Hazardous Liquids",
-      description:
-        "Submitted a research paper detailing simulation and design work using MATLAB and SOLIDWORKS.",
-      // presented: "E-Carrier Magazine",
+      title:
+        "Beyond the Clinic: Developing a mobile-based AI-Assisted Feedback System for Home Based Therapeutic Exercise in Musculoskeletal Telerehabilitation",
+      venue: "Sri Lanka Medical Association Abstract (SLMA Abstract 2026)",
+      status: "Accepted",
+      authors:
+        "G. N. Amarasuriya, M. R. M. Prabhashana, J. M. C. N. B. Jayasinghe, N. S. Samarasinghe, V. Logeeshan, S. N. N. Nair, D. C. Ranasinghe, P. Somarathne",
     },
   ];
 
@@ -328,13 +328,15 @@ export default function ResumeSection() {
                 Publications and other Research Works
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-                {publicationsData.map((publication, index) => (
-                  <PublicationItem
-                    key={publication.id}
-                    publication={publication}
-                    delay={index * 150}
-                  />
-                ))}
+                {publicationsData
+                  .filter((publication) => publication.venue)
+                  .map((publication, index) => (
+                    <PublicationItem
+                      key={publication.id}
+                      publication={publication}
+                      delay={index * 150}
+                    />
+                  ))}
               </div>
             </div>
           )}
@@ -510,23 +512,33 @@ const PublicationItem = ({ publication, delay = 0 }) => {
         </div>
 
         <div className="ml-4">
-          <h3 className="text-lg font-medium text-teal-400 mb-1">
-            {publication.title}
-          </h3>
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+            <h3 className="text-lg font-medium text-teal-400 mb-1">
+              {publication.title}
+            </h3>
 
-          <p className="text-gray-300 pb-2 text-sm">
-            {publication.description}
+            {publication.status && (
+              <span className="shrink-0 self-start rounded bg-rose-700/80 px-2 py-1 text-xs font-medium text-rose-50">
+                {publication.status}
+              </span>
+            )}
+          </div>
+
+          <p className="text-gray-300 pb-2 text-sm font-medium">
+            {publication.venue}
           </p>
 
+          <p className="text-gray-400 text-sm">{publication.authors}</p>
+
           {/* Rose Button Link */}
-          {publication.link && (
+          {publication.link && publication.linkLabel && (
             <a
               href={publication.link}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-2 px-3 py-1 text-sm bg-rose-500 rounded-lg text-white hover:bg-rose-600 transition"
             >
-              View Publication
+              {publication.linkLabel}
             </a>
           )}
         </div>

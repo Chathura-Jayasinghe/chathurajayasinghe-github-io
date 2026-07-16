@@ -32,7 +32,7 @@ const organizationsData = [
     name: "University of Moratuwa",
     subtitle: "University of Moratuwa",
     role: "Electrical Engineering Student",
-    period: "May 2022 - Present",
+    period: "May 2022 - June 2026",
     logo: "/organizations/uom.png", 
   },
   {
