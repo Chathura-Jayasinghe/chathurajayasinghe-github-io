@@ -73,7 +73,7 @@ const Home = () => {
   });
 
   const phrases = [
-    "Electrical Engineering Student ",
+    "Electrical Engineer ",
     "Full Stack Developer ",
     "Machine Learning Enthusiast ",
     "Musician ",
@@ -168,7 +168,7 @@ const Home = () => {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            Hi! I’m Chathura Jayasinghe, an undergraduate student pursuing
+            Hi! I’m Chathura Jayasinghe, an graduate student pursuing
             Electrical Engineering at the University of Moratuwa, Sri Lanka. As
             a Dean’s List achiever, I thrive at the intersection of research and
             practical innovation, specializing in Computer Vision, Machine
@@ -187,7 +187,7 @@ const Home = () => {
             I believe the universe conspires to reward consistent effort.
             Whether hiking mountains, pre-planning workflows, or chasing
             deadlines, I balance curiosity with discipline. Let’s connect and
-            explore how algorithms—or acoustic melodies—can shape the future!
+            explore how algorithms or acoustic melodies can shape the future!
           </p>
           <div className="flex flex-col md:flex-row justify-between pt-6 space-y-6 md:space-y-0 md:space-x-12">
             {/* Socials Section */}
@@ -208,13 +208,13 @@ const Home = () => {
                 >
                   <SocialIcon icon={<FaGithub />} />
                 </a>
-                {/* <a
-                  href="https://scholar.google.com/citations?user=epa4RPoAAAAJ&hl=en"
+                <a
+                  href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=dZCw9jYAAAAJ"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SocialIcon icon={<FaGoogleScholar />} />
-                </a> */}
+                </a>
                 <a
                   href="https://www.linkedin.com/in/chathura-jayasinghe-22493621a/"
                   target="_blank"

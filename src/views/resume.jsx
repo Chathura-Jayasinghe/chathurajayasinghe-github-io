@@ -59,7 +59,7 @@ export default function ResumeSection() {
     {
       id: 3,
       degree: "G.C.E. Ordinary Level",
-      institution: "Dharmaraja College Kandy",
+      institution: "Peradeniya Central College Kandy",
       score: "(9A's)",
       description:
         "Best Results at GCE O/L Examination 2017 9A's (Sinhala, English, Mathematics, Science, Religion, History, Business and Accounting Studies, Drama, Physical & Health Education)",
@@ -163,7 +163,7 @@ export default function ResumeSection() {
         "Fitness to Clinical Prescription: Fine-Tuning Vision Language Models for Therapeutic Exercises",
       venue:
         "2026 International Conference on Robotics and Artificial Intelligence (IRAI 2026)",
-      status: "Accepted",
+      status: "Accepted & Presented",
       authors:
         "G. N. Amarasuriya, M. R. M. Prabhashana, J. M. C. N. B. Jayasinghe, N. S. Samarasinghe, V. Logeeshan, S. N. N. Nair, D. C. Ranasinghe",
     },
@@ -172,7 +172,7 @@ export default function ResumeSection() {
       title:
         "Beyond the Clinic: Developing a mobile-based AI-Assisted Feedback System for Home Based Therapeutic Exercise in Musculoskeletal Telerehabilitation",
       venue: "Sri Lanka Medical Association Abstract (SLMA Abstract 2026)",
-      status: "Accepted",
+      status: "Accepted & Presented",
       authors:
         "G. N. Amarasuriya, M. R. M. Prabhashana, J. M. C. N. B. Jayasinghe, N. S. Samarasinghe, V. Logeeshan, S. N. N. Nair, D. C. Ranasinghe, P. Somarathne",
     },
@@ -182,7 +182,7 @@ export default function ResumeSection() {
     {
       id: 0,
       title: "Dean's List",
-      description: "Semester 3, Semester 4.",
+      description: "Semester 3",
     },
     {
       id: 1,

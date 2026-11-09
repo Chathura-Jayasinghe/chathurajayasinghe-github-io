@@ -40,7 +40,7 @@ const organizationsData = [
     name: "Electrical Engineering Society",
     subtitle: "Electrical Engineering Society",
     role: "Web Editor",
-    period: "Aug 2024 - Present",
+    period: "Aug 2024 - Aug 2026",
     logo: "/organizations/eesoc.png",
   },
   {
